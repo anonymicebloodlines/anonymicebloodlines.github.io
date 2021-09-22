@@ -10,6 +10,11 @@
     padding: 0;
   }
 
+body
+  {
+    background: #f0edda;
+}
+
 header {
     max-height: 20%;
     z-index: 999;
@@ -17,7 +22,7 @@ header {
     top:0;
     position: sticky;
     text-align: center;
-    background: #C4C4C4;
+    background: #ccc69b;
     font-weight: 600;
     font-size: 6vw;
     border-bottom: 5px solid black;
@@ -48,7 +53,7 @@ button {
     font-size: 4vw;
 
     overflow: hidden;
-    background-color: #c4c4c4;
+    background-color: #ccc69b;
     padding:.3em;
     border:.4em solid black;
     margin: .4em;

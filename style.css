@@ -30,18 +30,24 @@ header {
 
 input {
     text-align: center;
+    overflow: hidden;
     font-weight: 600;
     border: .4em solid black;
     margin: .4em;
     padding: .3em;  
     width:45%;
     border-radius:0.12em;
-    font-size: 70px;
+    /* font-size: 70px; */
+    font-size: 4vw;
+
 }
 
 button {
     font-weight: 600;
-    font-size: 70px;
+    /* font-size: 70px; */
+    font-size: 4vw;
+
+    overflow: hidden;
     background-color: #c4c4c4;
     padding:.3em;
     border:.4em solid black;
@@ -94,7 +100,9 @@ input:autofill {
 }
 
 #quicklinks {
-    width:75%;
+    display: flex;
+    justify-content: center;
+    width:100%;
     margin:auto
 }
 
@@ -102,13 +110,35 @@ div.item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    font-size: 35px;
 }
 
 div img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
     cursor: pointer;
 }
 
-.caption {
+div.item img, p {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+div.item {
+    max-width: 22.5%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.caption .emoji {
     display: block;
+}
+
+.caption {
+    font-size: 3.5vw;
+}
+
+.emoji {
+    font-size: 5vw;
 }

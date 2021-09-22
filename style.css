@@ -106,7 +106,7 @@ input:autofill {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #micetrap p{
-        font-size: 4vw;
+        font-size: 2vw;
     }
   }
 

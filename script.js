@@ -8,7 +8,11 @@ function loadChain(requested_id, random=false) {
                 requested_id = keys[Math.floor(Math.random() * max)];
             }
             let ids = data[requested_id];
-            $('#header').text(`🔥🔥 BLOODLINE FOR #${requested_id} 🔥🔥`);
+            wrap = '🔥🔥';
+            if (requested_id == 7767) {
+                wrap = '🙏🙏'
+            }
+            $('#header').text(`${wrap} BLOODLINE FOR #${requested_id} ${wrap}`);
             for (const id of ids) {
                 $('#micetrap').append( `<div style="max-width:25%;display:inline-block;"><img style="position:relative" id=${id} src="https://raw.githubusercontent.com/jozanza/anonymice-images/main/${id}.png"><p id=p${id}>${id}</p></div>`);
             }

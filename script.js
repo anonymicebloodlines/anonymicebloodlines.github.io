@@ -1,4 +1,4 @@
-function loadChain(requested_id, random=false) {     
+function loadChain(requested_id, random=false) {      
     $('#micetrap').html('');
     $.getJSON('https://raw.githubusercontent.com/saintmaxi/anonymice/main/ids_to_chains.json', function(data) {
         try {

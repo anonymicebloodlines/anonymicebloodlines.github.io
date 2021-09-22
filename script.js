@@ -20,14 +20,14 @@ function loadChain(requested_id, random=false) {
             $(`#p${requested_id}`).css('background-color', 'red');
         }
         catch {
-            $('#header').text(`🐭🐭ANONYMICE BLOODLINES🐭🐭`);
+            $('#header').text(`🐭ANONYMICE BLOODLINES🐭`);
             $('#micetrap').append(`<div style="margin:auto;width:100%;text-align:center"><h1>⚠️: The ID you entered (${requested_id}) was not part of a burn chain!</h1></div>`)
         }
     });
 } 
 
 function loadHome() {
-    $('#header').text(`🐭🐭ANONYMICE BLOODLINES🐭🐭`);
+    $('#header').text(`🐭ANONYMICE BLOODLINES🐭`);
     $('#micetrap').html('');
     let quicklinks = `<div id="quicklinks">
                         <div class="item">

@@ -21,3 +21,31 @@ function loadChain(requested_id, random=false) {
         }
     });
 }
+
+function loadHome() {
+    $('#header').text(`🔥🔥 ANONYMICE BLOODLINES 🔥🔥`);
+    $('#micetrap').html('');
+    let quicklinks = `<div id="quicklinks">
+                        <div class="item">
+                            <img src="https://raw.githubusercontent.com/jozanza/anonymice-images/main/6048.png" onclick="loadChain('6048')"/>
+                            <!-- <br><span class="caption">Longest</span><br> --><br>
+                            <span class="emoji">🥇</span>
+                        </div>
+                        <div class="item">
+                            <img src="https://raw.githubusercontent.com/jozanza/anonymice-images/main/3282.png" onclick="loadChain('3282')"/>
+                            <!-- <br></vr><span class="caption">2nd Longest</span><br> --><br>
+                            <span class="emoji">🥈</span>
+                        </div>
+                        <div class="item">
+                            <img src="https://raw.githubusercontent.com/jozanza/anonymice-images/main/6848.png" onclick="loadChain('6848')"/>
+                            <!-- <br><span class="caption">3rd Longest</span><br> --><br>
+                            <span class="emoji">🥉</span>
+                        </div>
+                        <div class="item">
+                            <img src="https://raw.githubusercontent.com/jozanza/anonymice-images/main/7767.png" onclick="loadChain('7767')"/>
+                            <!-- <br><span class="caption">7767</span><br> --><br>
+                            <span class="emoji">🙏</span>
+                        </div>
+                    </div>`
+    $('#micetrap').html(quicklinks);
+}

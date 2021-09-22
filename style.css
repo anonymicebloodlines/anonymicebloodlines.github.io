@@ -35,7 +35,7 @@ input {
     border: .4em solid black;
     margin: .4em;
     padding: .3em;  
-    width:45%;
+    width:30%;
     border-radius:0.12em;
     /* font-size: 70px; */
     font-size: 4vw;
@@ -70,11 +70,15 @@ input:autofill {
 }
 
 #go {
-    width: 15%;
+    width: 20%;
 }
 
 #random {
-    width: 35%;
+    width: 25%;
+}
+
+#home {
+    width: 10%
 }
 
 @keyframes cf3FadeInOut {
@@ -116,6 +120,9 @@ div img {
         max-width: 100%;
         height: auto;
         width: auto\9; /* ie8 */
+}
+
+#quicklinks img {
     cursor: pointer;
 }
 
@@ -136,7 +143,7 @@ div.item {
 }
 
 .caption {
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 .emoji {

@@ -10,7 +10,7 @@ function loadChain(requested_id, random=false) {
             let ids = data[requested_id];
             wrap = `🔥';
             if (requested_id == 7767) {
-                wrap = `🙏'
+                wrap = `🙏`
             }
             $('#header').text(`${wrap} BLOODLINE FOR #${requested_id} ${wrap}`);
             for (const id of ids) {

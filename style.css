@@ -1,0 +1,114 @@
+* {
+    font-family: 'Baloo Thambi 2';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  html, body {
+      height: 100%;
+    margin: 0; 
+    padding: 0;
+  }
+
+header {
+    max-height: 20%;
+    z-index: 999;
+    position: -webkit-sticky;
+    top:0;
+    position: sticky;
+    text-align: center;
+    background: #C4C4C4;
+    font-weight: 600;
+    font-size: 6vw;
+    border-bottom: 5px solid black;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+    font-weight: 600;
+    border: .4em solid black;
+    margin: .4em;
+    padding: .3em;  
+    width:45%;
+    border-radius:0.12em;
+    font-size: 70px;
+}
+
+button {
+    font-weight: 600;
+    font-size: 70px;
+    background-color: #c4c4c4;
+    padding:.3em;
+    border:.4em solid black;
+    margin: .4em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+button:hover{
+    color:#000000;
+    background-color:#FFFFFF
+}
+
+input:autofill {
+    width:100%;
+}
+
+#go {
+    width: 15%;
+}
+
+#random {
+    width: 35%;
+}
+
+@keyframes cf3FadeInOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
+}
+
+#micetrap {
+    margin-left:.8em;
+}
+
+#micetrap p{
+    max-width: 25%;
+    bottom:0;
+    float:right;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 4px;
+}
+
+#quicklinks {
+    width:75%;
+    margin:auto
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+}
+
+div img {
+    cursor: pointer;
+}
+
+.caption {
+    display: block;
+}

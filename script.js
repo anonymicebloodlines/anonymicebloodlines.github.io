@@ -24,7 +24,7 @@ function loadChain(requested_id, random=false) {
             $('#micetrap').append(`<div style="margin:auto;width:100%;text-align:center"><h1>⚠️: The ID you entered (${requested_id}) was not part of a burn chain!</h1></div>`)
         }
     });
-}
+} 
 
 function loadHome() {
     $('#header').text(`🔥🔥 ANONYMICE BLOODLINES 🔥🔥`);

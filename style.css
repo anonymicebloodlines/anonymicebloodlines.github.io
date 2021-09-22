@@ -1,5 +1,10 @@
-* {  
-    font-family: 'Baloo Thambi 2';
+@font-face {
+    font-family: 'Pixel Font';
+    src: URL('pixelfont.ttf') format('truetype');
+  }
+
+  * {
+    font-family: 'Pixel Font';
     font-style: normal;
     font-weight: 400;
   }
@@ -24,7 +29,7 @@ header {
     text-align: center;
     background: #ccc69b;
     font-weight: 600;
-    font-size: 6vw;
+    font-size: 5vw;
     border-bottom: 5px solid black;
 }
 
@@ -43,14 +48,14 @@ input {
     width:30%;
     border-radius:0.12em;
     /* font-size: 70px; */
-    font-size: 4vw;
+    font-size: 3.5vw;
 
 }
 
 button {
     font-weight: 600;
     /* font-size: 70px; */
-    font-size: 4vw;
+    font-size: 3.5vw;
 
     overflow: hidden;
     background-color: #ccc69b;
@@ -106,12 +111,13 @@ input:autofill {
     background: rgba(0, 0, 0, .5);
     color: #fff;
     padding: 4px;
+    font-size:.75vw;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #micetrap p{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
   }
 
